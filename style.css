@@ -1,0 +1,344 @@
+body {
+    font-family: 'open sans', sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+/*navbar*/
+header {
+    background-color: #313234;
+    height: 50px; 
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header > nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+
+}
+
+.row::before, .row::after {
+    content: " ";
+    display: table; 
+}
+
+.row::after {
+    clear: both;
+}
+
+header > nav ul > li {
+    display: inline-block;
+  }
+
+header > nav ul > li > a {
+    height: 50px;
+    padding: 0 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;;
+    text-transform: uppercase;
+}
+
+header > nav ul > li > a:hover{
+    color: #57CBEE;
+    transition: .3s;
+}
+
+header > nav img {
+    padding: 10px 0;
+}
+/*slogan*/
+.hero .slogan h1{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    color: #fff;
+    padding-right: 5px;
+    background-color:rgba(12, 11, 11, 0.116);
+    filter: alpha(opacity=50);
+}
+
+.hero .slogan img {
+    width: 100%;
+    height: 800px;
+}
+/*Sekcja korzyści*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+.container-mid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 50px;
+}
+
+.icon-wrapper {
+    font-size: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-mid .fa {
+    border: solid 3px;
+    cursor: pointer;
+    border-radius: 10%;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+.container-mid p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.container-mid a {
+    font-size: 10px;
+    line-height: 1px;
+    color:rgba(0, 0, 0, 0.534);
+    filter: alpha(opacity=50)
+    max-width: 60%;
+}
+
+.container-mid .fa:hover {
+    color: #fff;
+    background-color:#1548D5;
+    transition: .4s;
+}
+/*Featured works */
+
+.featured-works {
+   position: absolute;
+   margin-top: 300px;
+   text-align: center;
+}
+
+.featured-works h1 {
+    text-align: center;
+}
+
+.featured-works p {
+    color:rgba(0, 0, 0, 0.534);
+    filter: alpha(opacity=50)
+}
+/*Galeria*/
+
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 500px;
+    text-align: center;
+}
+
+.gallery-main {
+    max-width: 1200px;
+    width:100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery .image, .gallery2 .image {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+}
+
+.gallery .image-lg, .gallery2 .image-lg {
+    height: 155px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .img-gallery, .gallery2 .img-gallery {
+    margin: 0 auto;
+}
+
+.gallery2 {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    
+}
+
+.img-gallery {
+	position: relative; 
+}
+
+.col-2:hover .layer, .col-4:hover .layer {
+    display: block;
+    width: 100%;
+    height: 100%; 
+}
+
+.layer {
+	background-color: rgba(15, 169, 240, 0.3);
+	position: absolute; 
+	box-sizing: border-box;  
+    display: none; 
+}
+
+.layer .fa:hover {
+    margin: 0 auto;
+    color: #000;
+    display: block;
+    height: 20px;
+}
+
+/*Zespół*/
+.team {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+}
+
+.team .squad {
+    display: inline-block;
+}
+
+.squad img {
+    opacity: 45%;
+    border-radius: 50%;
+}
+/*Strona promocyjna*/
+
+.promo {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: left;
+    margin-top: 30px;
+    padding: 5px;
+
+}
+
+.promo .promo-img {
+    display: inline-block;
+}
+
+.promo .promo-img img {
+    width: 250px;
+    height: 450px;
+}
+
+.promo .col-8 {
+    margin-top: 100px;
+}
+/*Numerki*/
+
+.numbers {
+    margin-top: 40px;
+    padding-top : 5px;
+    margin: 0 auto;
+}
+
+
+.numbers .num {
+    display: inline-block;
+    text-align: center;
+}
+
+.numbers h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.numbers p {
+    color: #1548D5;
+}
+
+/*Footer*/
+
+.footer {
+    margin-top: 40px;
+    padding-top : 5px;
+    margin: 0 auto;
+    background-color:#fff;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer .top, footer .bot{
+    text-align: center;
+}
+
+.footer p {
+    text-align: left;
+}
+
+.mini-row{
+    width: 386px;
+}
+
+.mini-row::before, .mini-row::after {
+    content: " ";
+    display: table; 
+}
+
+.mini-row::after {
+    clear: both;
+}
+
+
+[class*='col-'] {
+	float: left;
+	Min-height: 1px;
+}
+
+.footer .fab , .footer .fas {
+    font-size: 45px;
+    text-align: center;
+    background-color:#1548D5;
+    color: #fff;
+    border: 2px;
+    border-color:#1548D5;
+    padding: 5px;
+    margin: 2px;
+}
+
+.footer {
+    color:#fff;
+    background-color: #313234;
+    width: 100%;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.footer h1 {
+    text-align: left;
+}
